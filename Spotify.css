@@ -5,13 +5,15 @@ body{
     color: white;
     overflow: hidden;
 }
+
 .main{
     display: flex;
-    height: 100vh; /*Screen ke 100% */
+    height: 100vh; /* Screen ke 100% */
     padding: 0.5rem;
 }
+
 .sidebar{
-    background-color:black;
+    background-color: black;
     width: 340px;
     border-radius: 1rem;
     margin-right: 0.5rem;
@@ -25,6 +27,7 @@ body{
     margin: 10px 10px 10px 0;
     padding: 5px;
 }
+
 .lang{
     border: 1px solid white;
     border-radius: 30px;
@@ -33,13 +36,15 @@ body{
     font-size: 12px;
     font-weight: bolder;
 }
+
 .main-content{
     background-color: black;
     flex: 1;  /* Iske bad ke jitne v divs unke content ko chorke baki sari space de do*/
     border-radius: 1rem;    
     overflow: auto;
-    padding: 0 1.5rem o 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
+
 .music-player{
     background-color: black;
     position: fixed;
@@ -47,10 +52,12 @@ body{
     width: 100%;
     height: 72px;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
+
 .nav{
     background-color: black;
     border-radius: 1rem;
@@ -58,23 +65,28 @@ a{
     flex-direction: column;
     justify-content: center;
     height: 100px;
-    padding:0.5rem 0.75rem;
+    padding: 0.5rem 0.75rem;
 }
+
 .nav-option{
-    line-height:2.5rem;
+    line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
 }
+
 .nav-option:hover{
     opacity: 1;
 }
+
 .nav-option i{
-    line-height:1.25rem;
+    font-size: 1.25rem;
 }
+
 .nav-option a{
-    line-height:1rem;
+    line-height: 1rem;
     margin-left: 1rem;
 }
+
 .library{
     background-color: black;
     border-radius: 1rem;
@@ -82,28 +94,34 @@ a{
     margin-top: 0.5rem;
     padding: 0.5rem 0.75rem;
 }
+
 .options{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .lib-option img{
     height: 1.25rem;
     width: 1.25rem;
 }
-.icon{
+
+.icons{
     font-size: 1.25rem;
     opacity: 0.7;
     margin-right: 1rem;
     display: flex;
 }
+
 .icons i{
     opacity: 0.7;
     margin-right: 1rem;
 }
+
 .icons i:hover{
     opacity: 1;
 }
+
 .box{
     background-color: #232323;
     height: 8rem;
@@ -111,14 +129,17 @@ a{
     margin: 0.75rem 0 1.75rem 0;
     padding: 0.75rem 1rem;
 }
+
 .box-p1{
     font-size: 1rem;
     font-weight: 500;
 }
+
 .box-p2{
     font-size: 0.85rem;
     opacity: 0.9;
 }
+
 .badge{
     background-color: white;
     border: none;
@@ -132,10 +153,11 @@ a{
 
 .dark-badge{
     background-color: #000;
-    color: whiteff;
+    color: white; /* Fixed typo */
 }
+
 .sticky-nav{
-    position: sticky ;
+    position: sticky;
     top: 0;
     background-color: #121212;
     display: flex;
@@ -144,12 +166,14 @@ a{
     padding: 1rem 0 1rem 0;
     z-index: 10;
 }
+
 .silog{
     padding: 5px;
     display: flex;
     gap: 20px;
     text-align: right;
 }
+
 .sticky-nav-icons img{
     margin-left: 0.75rem;
 }
@@ -205,12 +229,14 @@ a{
     gap: 40px;
     width: 90%;
 }
+
 .footer{
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .line{
     width: 90%;
     height: 50%;
@@ -222,13 +248,10 @@ a{
 .scmedia{
     width: 10%;
     display: flex;
-    align-items: top;
-    text-align: right;
-    padding: 20px;
+    align-items: flex-start;
+    justify-content: flex-end;
     gap: 10px;
-    text-align: right;
-    position: end;
-    
+    padding: 20px;
 }
 
 .music-player{
@@ -257,11 +280,13 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 .player-control-icon{
     height: 1rem;
     margin-right: 1.75rem;
     opacity: 0.7;
 }
+
 .player-control-icon:hover{
     opacity: 1;
 }
